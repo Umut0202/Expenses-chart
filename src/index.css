@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  background-color: hsl(27, 66%, 92%);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+canvas:hover {
+  cursor: pointer;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 1.25rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.balance-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(10, 79%, 65%);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+  color: white;
+}
+
+h1,
+h2 {
+  color: hsl(25, 47%, 15%);
+}
+
+.balance-title {
+  font-weight: bold;
+  color: white;
+  font-size: 1.875rem;
+}
+
+.balance-text {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.top-card {
+  background-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.bar-title {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .bar-title {
+    font-size: 1.875rem;
+  }
+}
+
+p {
+  color: hsl(28, 10%, 53%);
+}
+
+.bottom-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.profit-title {
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
+.total-text {
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 0.75;
+}
+
+.box-0 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: bold;
+  opacity: 100;
+}
+
+.percentag-profit {
+  font-weight: normal;
+  display: block;
+  opacity: 0.75;
+}
